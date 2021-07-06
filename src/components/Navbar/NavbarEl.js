@@ -13,7 +13,8 @@ export const NavbarWrapper = styled.nav`
   color: #fff;
   padding: 15px 0;
   transition: 0.5s all ease-in-out;
-  border-bottom: 1px solid #dad9d9;
+  border-bottom: ${({ isScrollable }) =>
+    isScrollable ? "1px solid #dad9d9" : "none"};
 
   @media screen and (max-width: ${screenLg}) {
     background-color: #fff !important;

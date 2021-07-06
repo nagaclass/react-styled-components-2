@@ -14,6 +14,7 @@ export const screenXl = "1200px";
 export const Container = styled.div`
   width: 85%;
   margin: 50px auto;
+  max-width: 1400px;
 
   @media screen and (max-width: ${screenMd}) {
     width: 95%;

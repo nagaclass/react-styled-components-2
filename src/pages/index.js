@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import SideBar from "../components/Sidebar";
 import LandingSection from "../components/LandingSection";
 import WhoAreWe from "../components/WhoAreWe";
+import OurValuesSection from "../components/OurValuesSection";
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ const HomePage = () => {
       <SideBar isOpen={isOpen} setIsOpen={setIsOpen} />
       <LandingSection />
       <WhoAreWe />
+      <OurValuesSection />
     </>
   );
 };

@@ -1,4 +1,4 @@
-import { MenuOutlined } from "@ant-design/icons";
+import { useEffect, useState } from "react";
 
 import {
   LinkItem,
@@ -10,9 +10,27 @@ import {
   ToggleMenu,
 } from "./NavbarEl";
 
+import { MenuOutlined } from "@ant-design/icons";
+
 const Navbar = ({ setIsOpen }) => {
+  const [isScrollable, setIsScrollable] = useState(false);
+
+  const onScrollChange = () => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY >= 100) {
+        setIsScrollable(true);
+      } else {
+        setIsScrollable(false);
+      }
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScrollChange);
+  }, []);
+
   return (
-    <NavbarWrapper>
+    <NavbarWrapper isScrollable={isScrollable}>
       <NavContainer>
         <Logo>Naga #2</Logo>
         <NavLinks>

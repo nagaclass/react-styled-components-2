@@ -3,15 +3,17 @@ import { Link } from "react-scroll";
 import { altBlue, blue, screenLg } from "../../constants";
 
 export const NavbarWrapper = styled.nav`
-  position: absolute;
+  position: ${({ isScrollable }) => (isScrollable ? "fixed" : "absolute")};
   top: 0;
   left: 0;
   width: 100%;
-  background-color: transparent;
+  background-color: ${({ isScrollable }) =>
+    isScrollable ? "#fff" : "transparent"};
   z-index: 999;
   color: #fff;
   padding: 15px 0;
-  /* border-bottom: 1px solid red; */
+  transition: 0.5s all ease-in-out;
+  border-bottom: 1px solid #dad9d9;
 
   @media screen and (max-width: ${screenLg}) {
     background-color: #fff !important;

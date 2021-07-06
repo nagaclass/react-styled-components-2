@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-scroll";
-import { altBlue, blue, screenLg } from "../constants";
+import { altBlue, blue, screenLg } from "../../constants";
 
 export const NavbarWrapper = styled.nav`
   position: absolute;

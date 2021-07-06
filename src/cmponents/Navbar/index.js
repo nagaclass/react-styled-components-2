@@ -10,7 +10,7 @@ import {
   ToggleMenu,
 } from "./NavbarEl";
 
-const Navbar = () => {
+const Navbar = ({ setIsOpen }) => {
   return (
     <NavbarWrapper>
       <NavContainer>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </NavLinks>
         <SignUp>Sign Up</SignUp>
         <ToggleMenu>
-          <MenuOutlined />
+          <MenuOutlined onClick={() => setIsOpen(true)} />
         </ToggleMenu>
       </NavContainer>
     </NavbarWrapper>

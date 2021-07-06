@@ -17,6 +17,6 @@ export const Container = styled.div`
   max-width: 1400px;
 
   @media screen and (max-width: ${screenMd}) {
-    width: 95%;
+    width: 90%;
   }
 `;

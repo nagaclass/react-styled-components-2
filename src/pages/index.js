@@ -7,6 +7,7 @@ import LandingSection from "../components/LandingSection";
 import WhoAreWe from "../components/WhoAreWe";
 import OurValuesSection from "../components/OurValuesSection";
 import OurProjectsCount from "../components/OurProjectsCount";
+import FeaturesSection from "../components/FeaturesSection";
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,7 @@ const HomePage = () => {
       <WhoAreWe />
       <OurValuesSection />
       <OurProjectsCount />
+      <FeaturesSection />
     </>
   );
 };

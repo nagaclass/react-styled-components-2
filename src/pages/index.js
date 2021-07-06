@@ -11,6 +11,7 @@ import FeaturesSection from "../components/FeaturesSection";
 import MobileAppSection from "../components/MobileAppSection";
 import ServicesSection from "../components/ServicesSection";
 import TestimonialsSection from "../components/TestimonialsSection";
+import WorkingTeam from "../components/WorkingTeam";
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +36,7 @@ const HomePage = () => {
       <MobileAppSection />
       <ServicesSection />
       <TestimonialsSection />
+      <WorkingTeam />
     </>
   );
 };

@@ -9,6 +9,8 @@ import OurValuesSection from "../components/OurValuesSection";
 import OurProjectsCount from "../components/OurProjectsCount";
 import FeaturesSection from "../components/FeaturesSection";
 import MobileAppSection from "../components/MobileAppSection";
+import ServicesSection from "../components/ServicesSection";
+import TestimonialsSection from "../components/TestimonialsSection";
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +33,8 @@ const HomePage = () => {
       <OurProjectsCount />
       <FeaturesSection />
       <MobileAppSection />
+      <ServicesSection />
+      <TestimonialsSection />
     </>
   );
 };

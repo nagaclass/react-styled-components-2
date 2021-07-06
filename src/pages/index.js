@@ -8,6 +8,7 @@ import WhoAreWe from "../components/WhoAreWe";
 import OurValuesSection from "../components/OurValuesSection";
 import OurProjectsCount from "../components/OurProjectsCount";
 import FeaturesSection from "../components/FeaturesSection";
+import MobileAppSection from "../components/MobileAppSection";
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +30,7 @@ const HomePage = () => {
       <OurValuesSection />
       <OurProjectsCount />
       <FeaturesSection />
+      <MobileAppSection />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { altBlue, blue, gray, screenMd } from "../../constants";
+import { altBlue, blue, screenMd } from "../../constants";
 
 export const FeaturesSectionWrap = styled.section`
   margin: 80px 0;

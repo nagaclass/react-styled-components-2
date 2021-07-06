@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { altBlue, gray, screenMd } from "../../constants";
 
 export const LandingSectionWrap = styled.section`

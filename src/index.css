@@ -1,0 +1,16 @@
+body {
+  font-family: "Roboto", sans-serif;
+  height: 5000px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}

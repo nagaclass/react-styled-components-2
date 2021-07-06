@@ -1,5 +1,6 @@
 export const blue = "#5969f3";
 export const altBlue = "#012970";
+export const gray = "#535354";
 
 // Break Points
 export const screenSm = "576px";

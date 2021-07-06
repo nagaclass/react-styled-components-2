@@ -7,10 +7,15 @@ export const NavbarWrapper = styled.nav`
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000;
+  background-color: transparent;
   z-index: 999;
   color: #fff;
   padding: 15px 0;
+  /* border-bottom: 1px solid red; */
+
+  @media screen and (max-width: ${screenLg}) {
+    background-color: #fff !important;
+  }
 `;
 
 export const NavContainer = styled.div`
@@ -41,8 +46,9 @@ export const NavLinks = styled.div`
 export const LinkItem = styled(Link)`
   margin: 0 10px;
   cursor: pointer;
-  font-weight: 400;
-  font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: ${altBlue};
 `;
 
 export const SignUp = styled.div`
@@ -70,5 +76,7 @@ export const ToggleMenu = styled.div`
 
   @media screen and (max-width: ${screenLg}) {
     display: block;
+    color: #000;
+    font-weigth: bold;
   }
 `;

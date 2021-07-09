@@ -34,13 +34,13 @@ const SideBar = ({ isOpen, setIsOpen }) => {
           About
         </LinkItem>
         <LinkItem
-          to="services"
+          to="values"
           smooth
           duration={500}
           offset={-65}
           onClick={() => setIsOpen(false)}
         >
-          Services
+          Values
         </LinkItem>
         <LinkItem
           to="portfolio"
@@ -52,31 +52,49 @@ const SideBar = ({ isOpen, setIsOpen }) => {
           Portfolio
         </LinkItem>
         <LinkItem
+          to="features"
+          smooth
+          duration={500}
+          offset={-65}
+          onClick={() => setIsOpen(false)}
+        >
+          Features
+        </LinkItem>
+        <LinkItem
+          to="mobile"
+          smooth
+          duration={500}
+          offset={-65}
+          onClick={() => setIsOpen(false)}
+        >
+          Mobile
+        </LinkItem>
+        <LinkItem
+          to="services"
+          smooth
+          duration={500}
+          offset={-100}
+          onClick={() => setIsOpen(false)}
+        >
+          Services
+        </LinkItem>
+        <LinkItem
+          to="testimonial"
+          smooth
+          duration={500}
+          offset={-100}
+          onClick={() => setIsOpen(false)}
+        >
+          Testimonial
+        </LinkItem>
+        <LinkItem
           to="team"
           smooth
           duration={500}
-          offset={-65}
+          offset={-100}
           onClick={() => setIsOpen(false)}
         >
           Team
-        </LinkItem>
-        <LinkItem
-          to="blog"
-          smooth
-          duration={500}
-          offset={-65}
-          onClick={() => setIsOpen(false)}
-        >
-          Blog
-        </LinkItem>
-        <LinkItem
-          to="contact"
-          smooth
-          duration={500}
-          offset={-65}
-          onClick={() => setIsOpen(false)}
-        >
-          Contact
         </LinkItem>
       </LinksWrapper>
       <BtnWrapper>

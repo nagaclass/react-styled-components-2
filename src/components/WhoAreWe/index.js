@@ -15,7 +15,7 @@ import Image from "./../../images/svg-2.svg";
 
 const WhoAreWe = () => {
   return (
-    <WhoAreWeWrapper>
+    <WhoAreWeWrapper id="about">
       <Container>
         <Row>
           <Column>

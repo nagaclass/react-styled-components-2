@@ -17,7 +17,7 @@ import {
 
 const OurProjectsCount = () => {
   return (
-    <OurProjectsCountWrapper>
+    <OurProjectsCountWrapper id="portfolio">
       <Container>
         <Row>
           <Item>

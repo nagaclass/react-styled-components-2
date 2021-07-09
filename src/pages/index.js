@@ -12,6 +12,7 @@ import MobileAppSection from "../components/MobileAppSection";
 import ServicesSection from "../components/ServicesSection";
 import TestimonialsSection from "../components/TestimonialsSection";
 import WorkingTeam from "../components/WorkingTeam";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,6 +38,7 @@ const HomePage = () => {
       <ServicesSection />
       <TestimonialsSection />
       <WorkingTeam />
+      <Footer />
     </>
   );
 };

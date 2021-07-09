@@ -32,28 +32,36 @@ const Navbar = ({ setIsOpen }) => {
   return (
     <NavbarWrapper isScrollable={isScrollable}>
       <NavContainer>
-        <Logo>Naga #2</Logo>
+        <LinkItem to="home" smooth duration={500}>
+          <Logo to="home">Naga #2</Logo>
+        </LinkItem>
         <NavLinks>
           <LinkItem to="home" smooth duration={500}>
             Home
           </LinkItem>
-          <LinkItem to="about" smooth duration={500}>
+          <LinkItem to="about" smooth duration={500} offset={-50}>
             About
           </LinkItem>
-          <LinkItem to="services" smooth duration={500}>
-            Services
+          <LinkItem to="values" smooth duration={500} offset={-100}>
+            Values
           </LinkItem>
-          <LinkItem to="portfolio" smooth duration={500}>
+          <LinkItem to="portfolio" smooth duration={500} offset={-100}>
             Portfolio
           </LinkItem>
-          <LinkItem to="team" smooth duration={500}>
+          <LinkItem to="features" smooth duration={500} offset={-100}>
+            Features
+          </LinkItem>
+          <LinkItem to="mobile" smooth duration={500} offset={-100}>
+            Mobile
+          </LinkItem>
+          <LinkItem to="services" smooth duration={500} offset={-100}>
+            Services
+          </LinkItem>
+          <LinkItem to="testimonial" smooth duration={500} offset={-100}>
+            Testimonial
+          </LinkItem>
+          <LinkItem to="team" smooth duration={500} offset={-100}>
             Team
-          </LinkItem>
-          <LinkItem to="blog" smooth duration={500}>
-            Blog
-          </LinkItem>
-          <LinkItem to="contact" smooth duration={500}>
-            Contact
           </LinkItem>
         </NavLinks>
         <SignUp>Sign Up</SignUp>

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const blue = "#5969f3";
 export const altBlue = "#012970";
 export const gray = "#535354";
+export const blackColor = "#0c0c0c";
 
 // Break Points
 export const screenSm = "576px";

@@ -22,7 +22,7 @@ import Img from "./../../images/features-3.png";
 
 const MobileAppSection = () => {
   return (
-    <MobileAppSectionWrapp>
+    <MobileAppSectionWrapp id="mobile">
       <Container>
         <LargeTxt>Ratione mollitia eos ab laudantium rerum beatae quo</LargeTxt>
         <Row>

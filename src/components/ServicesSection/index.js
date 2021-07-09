@@ -6,7 +6,7 @@ import { LargeTxt, Row, ServicesSectionWrap } from "./ServicesSectionEl";
 
 const ServicesSection = () => {
   return (
-    <ServicesSectionWrap>
+    <ServicesSectionWrap id="services">
       <Container>
         <LightTxt>services</LightTxt>
         <LargeTxt>Veritatis et dolores facere numquam et praesentium</LargeTxt>

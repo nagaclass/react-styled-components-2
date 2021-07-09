@@ -21,7 +21,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <TestimonialsWrapper>
+    <TestimonialsWrapper id="testimonial">
       <Container>
         <LightTxt>testimonials</LightTxt>
         <LargeTxt>What they are saying about us</LargeTxt>

@@ -13,7 +13,7 @@ import CustomLink from "../CustomLink";
 
 const LandingSection = () => {
   return (
-    <LandingSectionWrap>
+    <LandingSectionWrap id="home">
       <ContentWrapper>
         <LeftCol>
           <HeadTitle>

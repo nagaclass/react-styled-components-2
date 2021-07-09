@@ -5,7 +5,7 @@ import { LargeTxt, LightTxt, Row, WrokinTeamWrap } from "./WorkingTeamEl";
 
 const WorkingTeam = () => {
   return (
-    <WrokinTeamWrap>
+    <WrokinTeamWrap id="team">
       <Container>
         <LightTxt>team</LightTxt>
         <LargeTxt>Our hard working team</LargeTxt>

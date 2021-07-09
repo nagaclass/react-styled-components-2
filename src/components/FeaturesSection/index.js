@@ -16,7 +16,7 @@ import Img from "./../../images/svg-6.svg";
 
 const FeaturesSection = () => {
   return (
-    <FeaturesSectionWrap>
+    <FeaturesSectionWrap id="features">
       <Container>
         <LightTxt>our features</LightTxt>
         <LargeTxt>Laboriosam et omnis fuga quis dolor direda fara</LargeTxt>

@@ -14,6 +14,7 @@ export const Row = styled.div`
 export const Item = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 export const Icon = styled.div`

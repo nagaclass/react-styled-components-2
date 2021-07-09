@@ -15,7 +15,7 @@ import Img3 from "./../../images/svg-5.svg";
 
 const OurValuesSection = () => {
   return (
-    <OurValuesSectionWrapp>
+    <OurValuesSectionWrapp id="values">
       <Container>
         <LightTxt>our values</LightTxt>
         <LargeTxt>Odit est perspiciatis laborum et dicta</LargeTxt>
